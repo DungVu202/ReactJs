@@ -1,24 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+// import Baitap1 from "./component/baitap1";
+// import Baitap2 from "./component/baitap2";
+// import Baitap3 from "./component/baitap3";
+import RenderingElements from "./rendering-elements";
+import HandlingEvent from "./handling-event";
+import ExampleHandlingEvent from './handling-event/exampleHandlingEvent';
+import State from './state';
+import BaitapCar from "./baitap-car";
+import ListKey from './list-key';
+import ExampleList from './list-key/example-list';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Baitap1 /> */}
+      {/* <Baitap2 /> */}
+      {/* <Baitap3 /> */}
+      <RenderingElements />
+      <hr/>
+      <HandlingEvent />
+      <hr/>
+      <ExampleHandlingEvent/>
+      <hr/>
+      <State/>
+      <hr/>
+      <BaitapCar/>
+      <hr/>
+      <ListKey/>
+      <hr/>
+      <ExampleList/>
     </div>
   );
 }
