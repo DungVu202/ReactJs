@@ -10,6 +10,11 @@ import State from './state';
 import BaitapCar from "./baitap-car";
 import ListKey from './list-key';
 import ExampleList from './list-key/example-list';
+import Props from './props';
+import ExampleProps from './Example-props';
+import LiftingStateUp from './lifting-state-up';
+import LiftingStateUpCart from './lifting-state-up-cart';
+
 
 
 function App() {
@@ -31,6 +36,14 @@ function App() {
       <ListKey/>
       <hr/>
       <ExampleList/>
+      <hr/>
+      <Props/>
+      <hr/>
+      <ExampleProps/>
+      <hr/>
+      <LiftingStateUp/>
+      <hr/>
+      <LiftingStateUpCart/>
     </div>
   );
 }
